@@ -29,7 +29,7 @@ let users = [
 let info = document.getElementById("info");
 
 
- let result = `<div class="row">`;
+ let result = ``;
  
  users.forEach(function(user){
 	 
@@ -45,7 +45,7 @@ let info = document.getElementById("info");
 			 `
 })
 
-result +=`</div>`;
+
 
 
 info.innerHTML = result;
